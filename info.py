@@ -24,6 +24,6 @@ MONGO_DB = str(getenv("MONGO_DB", "mongodb+srv://Demo23:Demo23@cluster0.fjar36c.
 DEF_CAP = str(
     getenv(
         "DEF_CAP",
-        "<b>File Name:- `{file_name}`\n\n{file_size}\Dev</b>",
+        "<b>File Name:- `{file_name}`\n\n{file_size}\nDev</b>",
     )
 )
