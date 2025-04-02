@@ -1,4 +1,3 @@
-import asyncio
 from pyrogram import Client
 from info import *
 
@@ -30,21 +29,5 @@ class Bot(Client):
         print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️")
         await self.send_message(ADMIN, f"**{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️**")
 
-    async def stop(self):
-        await super().stop()
 
-    def run(self):
-        asyncio.run(self._run())
-
-    async def _run(self):
-        await self.start()
-        # Your bot logic here
-        await self.idle()
-        await self.stop()
-    
-    async def idle(self):
-        await asyncio.Event().wait()
-
-
-if __name__ == "__main__":
-    Bot().run()
+Bot().run()
