@@ -41,6 +41,9 @@ class Bot(Client):
         # Your bot logic here
         await self.idle()
         await self.stop()
+    
+    async def idle(self):
+        await asyncio.Event().wait()
 
 
 if __name__ == "__main__":
