@@ -5,7 +5,7 @@ class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {}\n\n
 ɪ ᴀᴍ ᴛʜᴇ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ ᴡɪᴛʜ ᴘʀᴇᴍɪᴜᴍ ꜰᴇᴀᴛᴜʀᴇꜱ, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ cʜᴀɴɴᴇʟ ᴀɴᴅ ᴇɴᴊᴏʏ
 
-‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Morning006'>𖧹𝙳𝚎𝚟࿐😀</a></b>
+‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 𖧹𝙳𝚎𝚟࿐😀</b>
 """
 
     HELP_TXT = """•••[( 𝘎𝘦𝘵 𝘏𝘦𝘭𝘱 )]•••
@@ -41,7 +41,7 @@ Eg:- `/set_cap
 
     ABOUT_TXT = """<b>╔════❰ ᴀᴜᴛᴏ ᴄᴀᴘᴛɪᴏɴ ʙᴏᴛ ❱═❍⊱❁
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃ʙᴏᴛ : <a href='https://t.me/Dev_Autoforwardbot'>Auto Caption</a>
+║┣⪼📃ʙᴏᴛ : <a href='https://t.me/@Dev_Advance_caption_bot'>Auto Caption</a>
 ║┣⪼👦Cʀᴇᴀᴛᴏʀ : <a href='https://t.me/Morning006'>Dev ⚠️</a>
 ║┣⪼🤖Uᴘᴅᴀᴛᴇ : <a href='https://t.me/MoviesEmpire_Backup'>Backup 😀</a>
 ║┣⪼📡Hᴏsᴛᴇᴅ ᴏɴ : buffalo 
