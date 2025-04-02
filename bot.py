@@ -29,5 +29,18 @@ class Bot(Client):
         print(f"{me.first_name} Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️")
         await self.send_message(ADMIN, f"**{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️**")
 
+    async def stop(self):
+        await super().stop()
 
-Bot().run()
+    def run(self):
+        asyncio.run(self._run())
+
+    async def _run(self):
+        await self.start()
+        # Your bot logic here
+        await self.idle()
+        await self.stop()
+
+
+if __name__ == "__main__":
+    Bot().run()
